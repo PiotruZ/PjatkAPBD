@@ -12,9 +12,9 @@ static double CalculateAverage(int[] numbers)
     }
 
     double sum = 0;
-    foreach (int number in numbers)
+    foreach (int cyfra in numbers)
     {
-        sum += number;
+        sum += cyfra;
     }
     return sum / numbers.Length;
 }
